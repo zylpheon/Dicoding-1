@@ -9,13 +9,10 @@
   <body>
     <h1>Aplikasi Catatan</h1>
 
-    <form id="note-form">
-      <input type="text" id="note-title" placeholder="Judul Catatan" required />
-      <textarea id="note-body" placeholder="Isi Catatan" required></textarea>
-      <button type="submit">Tambah Catatan</button>
-    </form>
-
-    <div id="notes-container"></div>
+    <div class="container">
+      <note-form></note-form>
+      <div id="notes-container"></div>
+    </div>
 
     <script src="sample-notes.js"></script>
     <script src="script.js"></script>
