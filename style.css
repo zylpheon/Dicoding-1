@@ -59,16 +59,37 @@ button:hover {
   background-color: #1c86ee;
 }
 
-/* Styling daftar catatan */
-#notes-container {
+/* Styling untuk daftar catatan */
+note-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 15px;
 }
 
-note-item {
+.note-card {
   background: #1e1e1e;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(30, 144, 255, 0.5);
+}
+
+.note-card h3 {
+  margin: 0;
+}
+
+.note-card p {
+  margin: 10px 0;
+}
+
+button.delete-btn {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.delete-btn:hover {
+  background-color: #e60000;
 }
